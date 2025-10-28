@@ -47,3 +47,4 @@ mcp.mount_http()
 if __name__ == "__main__":
     import uvicorn # type: ignore
     uvicorn.run(app, host="localHost", port=8002)
+mcp.run()
