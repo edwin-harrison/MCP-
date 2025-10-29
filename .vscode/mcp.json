@@ -7,6 +7,27 @@
                 "MCP-/Scenario 1/calculator.py"
             ],
             "env": {}
+        },
+
+
+// Second Sceneario
+        "calculcator-HTTP": {
+            "command": "npx",
+    "args":[
+        "mcp-remote",
+        "http://localhost:8002/mcp"
+         
+    ]
+    },
+
+// Third scenario
+        "feed-STDIO":{
+            "command": "python",
+            "args": [
+                "/MCP-/Scenario 3/feed-mcp.py"
+            ],
+            "env": {}
         }
-    }
 }
+}
+
