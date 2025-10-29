@@ -1,0 +1,12 @@
+//First Scenario
+{
+    "servers": {
+        "Calculator-STDIO": {
+            "command": "python",
+            "args": [
+                "MCP-/Scenario 1/calculator.py"
+            ],
+            "env": {}
+        }
+    }
+}
